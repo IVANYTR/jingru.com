@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script>
+    (function () {
+      var lang = "en";
+      try {
+        var saved = localStorage.getItem("jr-lang");
+        if (saved === "zh" || saved === "en") lang = saved;
+      } catch (err) {}
+      document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+      document.documentElement.setAttribute("data-lang", lang);
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Products | Ningbo Jinrun Import &amp; Export Co., Ltd.</title>
+  <meta name="description" content="Shell fabrics, lining fabrics, interlinings, zippers, reflective tapes and visors from Ningbo Jinrun Import &amp; Export Co., Ltd.">
+  <meta name="theme-color" content="#17152e">
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600&family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@500;600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="products" data-title-en="Products | Ningbo Jinrun Import &amp; Export Co., Ltd." data-title-zh="产品中心 | 宁波槿润进出口有限公司">
+  <a class="skip" href="#main"><span class="en">Skip to content</span><span class="zh">跳到正文</span></a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="" width="48" height="38">
+        <span class="brand-text">
+          <span class="brand-en">Ningbo Jinrun</span>
+          <span class="brand-zh">宁波槿润进出口</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only en">Menu</span>
+        <span class="sr-only zh">菜单</span>
+      </button>
+      <nav class="site-nav" id="site-nav">
+        <a href="index.html"><span class="en">Home</span><span class="zh">首页</span></a>
+        <a href="about.html"><span class="en">About</span><span class="zh">关于我们</span></a>
+        <a href="products.html" aria-current="page"><span class="en">Products</span><span class="zh">产品中心</span></a>
+        <a href="contact.html"><span class="en">Contact</span><span class="zh">联系我们</span></a>
+        <a class="header-phone" href="tel:+8617858939345">+86 178 5893 9345</a>
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" data-set-lang="zh" aria-pressed="false">中文</button>
+          <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="eyebrow"><span class="en">Products</span><span class="zh">产品中心</span></p>
+        <h1>
+          <span class="en">Fabrics and the accessories that finish a garment.</span>
+          <span class="zh">面料，以及把一件衣服配齐的辅料。</span>
+        </h1>
+        <p class="lead">
+          <span class="en">Six groups we produce ourselves. Construction, color and quantity are confirmed at sampling. Marked areas read 用占位图 because product photos are not on file yet.</span>
+          <span class="zh">以下六类为自主生产的产品。结构、颜色和数量在打样时确认。标注「用占位图」是因为目前没有产品实拍。</span>
+        </p>
+        <div class="filters" data-filter-bar>
+          <button type="button" data-filter="all" aria-pressed="true"><span class="en">All</span><span class="zh">全部</span></button>
+          <button type="button" data-filter="fabric" aria-pressed="false"><span class="en">Fabrics</span><span class="zh">面料类</span></button>
+          <button type="button" data-filter="trim" aria-pressed="false"><span class="en">Trims</span><span class="zh">辅料类</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tight">
+      <div class="wrap catalog">
+        <article class="catalog-item" id="shell" data-group="fabric">
+          <div class="ph ph-sq" role="img" aria-label="用占位图 Placeholder"><span class="ph-label">用占位图</span></div>
+          <div>
+            <p class="idx">01</p>
+            <h2><span class="en">Shell fabrics</span><span class="zh">面料</span></h2>
+            <p class="alias"><span class="en">面料</span><span class="zh">Shell fabrics</span></p>
+            <p class="body">
+              <span class="en">Outer fabrics for garments. Send a sample or a written specification and we prepare a counter sample before production.</span>
+              <span class="zh">服装用外层面料。提供样品或书面规格后，我们先打样确认，再安排生产。</span>
+            </p>
+            <a class="link" href="contact.html?item=shell"><span class="en">Inquire about shell fabrics</span><span class="zh">咨询面料</span></a>
+          </div>
+        </article>
+
+        <article class="catalog-item" id="lining" data-group="fabric">
+          <div class="ph ph-sq" role="img" aria-label="用占位图 Placeholder"><span class="ph-label">用占位图</span></div>
+          <div>
+            <p class="idx">02</p>
+            <h2><span class="en">Lining fabrics</span><span class="zh">里布</span></h2>
+            <p class="alias"><span class="en">里布</span><span class="zh">Lining fabrics</span></p>
+            <p class="body">
+              <span class="en">Linings used inside garments. They can be ordered on their own or together with the shell fabric.</span>
+              <span class="zh">服装内里用里布。可以单独采购，也可以和面料一起配套。</span>
+            </p>
+            <a class="link" href="contact.html?item=lining"><span class="en">Inquire about linings</span><span class="zh">咨询里布</span></a>
+          </div>
+        </article>
+
+        <article class="catalog-item" id="interlining" data-group="fabric">
+          <div class="ph ph-sq" role="img" aria-label="用占位图 Placeholder"><span class="ph-label">用占位图</span></div>
+          <div>
+            <p class="idx">03</p>
+            <h2><span class="en">Interlinings</span><span class="zh">衬布</span></h2>
+            <p class="alias"><span class="en">衬布</span><span class="zh">Interlinings</span></p>
+            <p class="body">
+              <span class="en">Interlinings that hold the shape of collars, cuffs, plackets and similar parts. The type is chosen against the garment.</span>
+              <span class="zh">用于衣领、袖口、门襟等部位定型的衬布。具体种类按成衣结构来选。</span>
+            </p>
+            <a class="link" href="contact.html?item=interlining"><span class="en">Inquire about interlinings</span><span class="zh">咨询衬布</span></a>
+          </div>
+        </article>
+
+        <article class="catalog-item" id="zipper" data-group="trim">
+          <div class="ph ph-sq" role="img" aria-label="用占位图 Placeholder"><span class="ph-label">用占位图</span></div>
+          <div>
+            <p class="idx">04</p>
+            <h2><span class="en">Zippers</span><span class="zh">拉链</span></h2>
+            <p class="alias"><span class="en">拉链</span><span class="zh">Zippers</span></p>
+            <p class="body">
+              <span class="en">Zippers for apparel. Length, color and puller are matched to the order and checked on the sample.</span>
+              <span class="zh">服装用拉链。长度、颜色和拉头按订单配合，并在样品上确认。</span>
+            </p>
+            <a class="link" href="contact.html?item=zipper"><span class="en">Inquire about zippers</span><span class="zh">咨询拉链</span></a>
+          </div>
+        </article>
+
+        <article class="catalog-item" id="tape" data-group="trim">
+          <div class="ph ph-sq" role="img" aria-label="用占位图 Placeholder"><span class="ph-label">用占位图</span></div>
+          <div>
+            <p class="idx">05</p>
+            <h2><span class="en">Reflective tapes</span><span class="zh">反光带</span></h2>
+            <p class="alias"><span class="en">反光带</span><span class="zh">Reflective tapes</span></p>
+            <p class="body">
+              <span class="en">Reflective tapes for workwear, sportswear and outdoor clothing. Width and color follow the requirement you send.</span>
+              <span class="zh">用于工装、运动服和户外服装的反光带。宽度和颜色按您提供的要求供货。</span>
+            </p>
+            <a class="link" href="contact.html?item=tape"><span class="en">Inquire about reflective tapes</span><span class="zh">咨询反光带</span></a>
+          </div>
+        </article>
+
+        <article class="catalog-item" id="visor" data-group="trim">
+          <div class="ph ph-sq" role="img" aria-label="用占位图 Placeholder"><span class="ph-label">用占位图</span></div>
+          <div>
+            <p class="idx">06</p>
+            <h2><span class="en">Visors</span><span class="zh">帽檐</span></h2>
+            <p class="alias"><span class="en">帽檐</span><span class="zh">Visors</span></p>
+            <p class="body">
+              <span class="en">Visors and brims for caps and hats. Shape and stiffness are set during sampling.</span>
+              <span class="zh">帽类用帽檐。造型和硬度在打样阶段确定。</span>
+            </p>
+            <a class="link" href="contact.html?item=visor"><span class="en">Inquire about visors</span><span class="zh">咨询帽檐</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a class="brand brand-on-dark" href="index.html">
+          <img src="assets/logo.png" alt="" width="48" height="38">
+          <span class="brand-text">
+            <span class="brand-en">Ningbo Jinrun</span>
+            <span class="brand-zh">宁波槿润进出口有限公司</span>
+          </span>
+        </a>
+        <p class="footer-lead">
+          <span class="en">Garment fabrics and accessories, made and exported from Ningbo.</span>
+          <span class="zh">服装面料与辅料，在宁波生产并出口。</span>
+        </p>
+      </div>
+      <div>
+        <p class="footer-label"><span class="en">Pages</span><span class="zh">页面</span></p>
+        <a href="index.html"><span class="en">Home</span><span class="zh">首页</span></a>
+        <a href="about.html"><span class="en">About</span><span class="zh">关于我们</span></a>
+        <a href="products.html"><span class="en">Products</span><span class="zh">产品中心</span></a>
+        <a href="contact.html"><span class="en">Contact</span><span class="zh">联系我们</span></a>
+      </div>
+      <div>
+        <p class="footer-label"><span class="en">Contact</span><span class="zh">联系</span></p>
+        <a href="tel:+8617858939345">+86 178 5893 9345</a>
+        <a href="mailto:ningbojrexport@hotmail.com">ningbojrexport@hotmail.com</a>
+        <a href="https://wa.me/8617858939345" target="_blank" rel="noopener">WhatsApp</a>
+        <span>WeChat +86 178 5893 9345</span>
+      </div>
+    </div>
+    <div class="wrap footer-base">
+      <p>© <span id="year">2026</span> 宁波槿润进出口有限公司 · Ningbo Jinrun Import &amp; Export Co., Ltd.</p>
+      <p class="en">205-8, 2nd Floor, Zone C, No.601 Juxing Road, Zhuangshi Street, Zhenhai District, Ningbo, Zhejiang, China</p>
+      <p class="zh">浙江省宁波市镇海区庄市街道聚兴路601号C区2楼205-8</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
